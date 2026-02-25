@@ -2,9 +2,6 @@
 import sys
 import tkinter as tk
 
-def key():
-    print("Key pressed")
-
 root = tk.Tk()
 root.title("")
 root.bind('<Key-space>', lambda e: quit())
